@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Formulir Pendaftaran KKN</title>
+
+      <style type="text/css">
+          body{
+              background-image: url("background.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+          form{
+              margin-left: 500px;
+          }
+      </style>
+  </head> 
+
+  <body>
+      <header id="header">
+          <center><h1>
+            Pendaftaran Mahasiswa KKN 2021
+          </h1></center>
+      </header>
+      
+      <p>Kuliah Kerja Nyata (KKN) muncul dari konsep atas kesadaran mahasiswa sebagai calon sarjana untuk dapat memanfaatkan sebagian waktu belajarnya menyumbangkan pengetahuan dan ilmu yang telah diperolehnya secara langsung dalam membantu memecahkan dan melaksanakan pembangunan di dalam kehidupan masyarakat. </p>
+      <nav><center><a href="www.itera.ac.id">Klik link website Itera untuk info lebih lanjut</a></center></nav><br>
+      <nav><center><a href="siakad.itera.ac.id">atau SIAKAD untuk cek ketersediaan kuota</a></center></nav><br>
+            <form action="detail.html" method="GET">
+          <label for="">Nama                :</label>
+          <input type="text" name="Nama" id="Nama"><br>
+
+          <label for="">NIM                 :</label>
+          <input type="text" name="NIM" id="NIM"><br>
+
+          <label for="">Jurusan             :</label>
+          <select name="Jurusan" id="Jurusan">
+              <option value="JTIK">JTIK</option>
+              <option value="SAINS">SAINS</option>
+              <option value="JTPI">JTPI</option>
+          </select><br>
+
+          <label for="">Alasan Mengikuti KKN:</label><br>
+          <textarea name="alasan" id="alasan" cols="30" rows="10"></textarea><br>
+
+          <label for="">Ukuran Baju         :</label>
+          <select name="Ukuranbaju" id="Ukuranbaju">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXL</option>
+          </select>
+          <input type="radio" name="lenganbaju" id="lenganbaju" value="Lenganpendek">
+          <label for="">Lengan pendek</label>
+          <input type="radio" name="lenganbaju" id="lenganbaju" value="Lenganpanjang">
+          <label for="">Lengan panjang</label>
+          <br><br>
+
+          <button type="submit" name="submit">Submit</button>
+      </form>
+
+      <nav><center><a href="if.itera.ac.id">Info lanjutan untuk pengumuman selanjutnya</a></center></nav><br>
+  </body> 
+  <footer>
+      <p><small>Copyright&copy;2021 PendaftaranKKN.Created by Ikhsanudin Raka S </small><a href="#header"><small>go to top</small></a></p>
+  </footer>
+</html>
+
